@@ -22,7 +22,7 @@ body {
 .catagory {
 	text-align: left;
 	font-size: 4rem;
-	font-family: 'robot';
+	font-family: "robot", Roboto, sans-serif;
 	color: orange;
 	margin-bottom: 5rem;
 	margin-top: 0;
