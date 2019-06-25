@@ -28,6 +28,10 @@ body {
 	margin-top: 0;
 }
 
+.nowrap {
+  white-space: nowrap ;
+}
+
 /*Social Media*/
 
 .round-button {
@@ -165,6 +169,7 @@ li a:hover {
 div .content {
 	position: relative;
 	display: block;
+	white-space: nowrap;
 }
 
 @media screen and (max-width: 768px) {
