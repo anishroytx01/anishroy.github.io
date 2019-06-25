@@ -154,6 +154,7 @@ li a:hover {
 	background-color: #fff;
 	color: #222;
 	display: flex;
+	white-space: nowrap;
 }
 
 #profile {
