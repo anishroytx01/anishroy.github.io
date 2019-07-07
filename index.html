@@ -119,7 +119,8 @@
     <div class="inner-wrapper">
       <h2 class="catagory">Contact</h2>
       <div class="contact-wrapper">
-        <form action="/my-handling-form-page" method="post" class="contact-form">
+        <!--<form action="/my-handling-form-page" method="post" class="contact-form"> -->
+        <form name="form" action="form_handler.php" method="POST">
           <span class="span-half pull-left">
             <label>Name
               <input type="text" name="name" placeholder="Enter your name" required>
@@ -127,7 +128,7 @@
           </span>
           <span class="span-half pull-right">
             <label>Message
-              <textarea name="message" placeholder="What would you like to say?" required></textarea>
+              <textarea name="comment" placeholder="What would you like to say?" required></textarea>
             </label>
           </span>
           <span class="span-half pull-left">
@@ -135,7 +136,7 @@
               <input type="text" name="email" placeholder="Enter your email address" required>
             </label>
           </span>
-          <button type="submit" class="button submit">Send</button>
+          <button type="submit" name="submit" value="Subscribe" class="button submit">Send</button>
         </form>
       </div>
     </section>
