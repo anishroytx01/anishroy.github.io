@@ -120,23 +120,24 @@
       <h2 class="catagory">Contact</h2>
       <div class="contact-wrapper">
         <!--<form action="/my-handling-form-page" method="post" class="contact-form"> -->
-        <form name="form" action="form_handler.php" method="POST">
+        <!--<form name="form" action="form_handler.php" method="POST"> -->
+        <form action="https://formspree.io/anishroytx01@gmail.com">
           <span class="span-half pull-left">
             <label>Name
-              <input type="text" name="name" placeholder="Enter your name" required>
+              <input type="text" name="name" id="full-name" placeholder="Enter your name" required>
             </label>
           </span>
           <span class="span-half pull-right">
             <label>Message
-              <textarea name="comment" placeholder="What would you like to say?" required></textarea>
+              <textarea name="message" id="message" placeholder="What would you like to say?" required></textarea>
             </label>
           </span>
           <span class="span-half pull-left">
             <label>E-mail
-              <input type="text" name="email" placeholder="Enter your email address" required>
+              <input type="email" name="_replyto" id="email-address" placeholder="Enter your email address" required>
             </label>
           </span>
-          <button type="submit" name="submit" value="Subscribe" class="button submit">Send</button>
+          <button type="submit" name="submit" value="Submit" class="button submit">Send</button>
         </form>
       </div>
     </section>
