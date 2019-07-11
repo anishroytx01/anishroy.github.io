@@ -107,9 +107,10 @@ nav li a {
 	text-align: center;
 	text-decoration:none;
 }
-.active {
+li a:active {
 	background-color: orange;
 }
+
 li a:hover {
 	background-color: orange;
 	color: #333;
