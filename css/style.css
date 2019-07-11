@@ -219,7 +219,6 @@ div .content {
 	border-radius: 2px;
 	border: 1px solid;
 	transition: border-color 1s, -moz-box-shadow 1s,-webkit-box-shadow 1s,box-shadow 1s;
-	position: relative;
 }
 
 .port-item:hover {
