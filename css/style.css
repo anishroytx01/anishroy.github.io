@@ -155,7 +155,6 @@ li a:hover {
 	color: #222;
 	display: flex;
 	white-space: nowrap;
-	font-size: 14 px;
 }
 
 #profile {
@@ -334,6 +333,8 @@ button, input, select, textarea {
 	box-sizing: border-box;
 	width: 200px;
 }
+<style>
+
 
 @media screen and (max-width: 1000px) {
     /* For mobile phones:*/
