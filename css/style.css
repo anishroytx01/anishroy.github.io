@@ -221,6 +221,11 @@ div .content {
 	transition: border-color 1s, -moz-box-shadow 1s,-webkit-box-shadow 1s,box-shadow 1s;
 	position: relative;
 }
+.port-item image {
+	height: 300px;
+	width: 270px;
+}
+
 .port-item:hover {
 	border-color: ;
 	-moz-box-shadow: 0 0 5px #fff;
