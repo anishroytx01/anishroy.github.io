@@ -1,1 +1,1 @@
-whats up
+Repo to host my website built in HTML/CSS.
