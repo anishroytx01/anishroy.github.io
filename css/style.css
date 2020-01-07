@@ -179,8 +179,8 @@ div .content {
     background: #4E9CAF;
     text-align: center;
     color: white;
-    font-weight: bold;
-	display: inline-block;
+
+	display: block;
 }
 
 @media screen and (max-width: 768px) {
