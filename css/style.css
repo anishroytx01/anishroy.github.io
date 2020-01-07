@@ -174,7 +174,8 @@ div .content {
 	display: block;
 	white-space: nowrap;
 }
-.button {
+
+a .button {
     display: block;
     width: 115px;
     height: 25px;
